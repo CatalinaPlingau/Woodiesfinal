@@ -1,0 +1,379 @@
+body{
+    display: grid;
+    grid-template-rows: 200px 590px 900px 600px 1000px 780px 400px ;
+    grid-template-areas: 
+    "nav nav"
+    "one one"
+    "two two"
+    "three three"
+    "four four"
+    "six six"
+    "seven seven"
+    
+    ;
+    margin:0;
+}
+.Logo{
+    margin-left: 0px;
+    grid-area: nav;
+    
+    position: absolute;
+    width: 230px;    
+    height: 40px;
+    left: 20px;
+    top: 15px;
+    background-image: url(Group28logo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+nav{
+    grid-area: nav;
+    position: absolute;
+  
+    width: 100%;
+    
+}
+nav ul{
+    display: grid;
+    list-style: none;
+    grid-template-columns: repeat(6,1fr);
+    
+    margin-left: 300px;
+    height: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+   
+}
+nav li{
+    
+    margin:0px;
+    text-align: center;
+    padding-top: 9px;
+    padding-left: 9px;
+    padding-right: 9px;
+   
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.clickborder{
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    height: 40px;
+}
+.brown{
+    color: #DAA520;
+}
+.background{
+    width: 500px;
+    height: 800px;
+    background-color: #F9BDBD;
+    border-radius: 0px 0px 0px 75px;
+    margin-left: 115%;
+    position: cover;
+}
+.photo{
+    background-image: url(Simple-modern-balcony-small-coffee-table-living-room-small-apartment-sofa-side-table-simple-home-bedroom\ 1.png);
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    background-size:100%;
+    margin-top: 13%;
+    margin-left: 53%;
+}
+.group25{
+    background-image: url(Group25.png);
+    width:300px;
+    height: 300px;
+    background-size: 100%;
+    margin-left:-10% ;
+    margin-top: 70%;
+}
+*{
+    font-family: nunito;
+}
+
+.but{
+    background-color:#DAA520;
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    color: white;
+    user-select: all;
+}
+
+.first{
+    font-size: 320%;
+    
+}
+.second{
+    font-size: 650%;
+}
+.third{
+    font-size: 640%;
+}
+.frame1{
+    margin-left: 10%;
+    width: 700px;
+    background-size: 100%;
+    height: 200px;
+    
+}
+.one{
+    
+    grid-area: one;
+}
+.two{
+    
+    grid-area: two;
+    font-weight: 700;
+    
+   
+
+}
+.three{
+   
+    grid-area: three;
+}
+.four{
+    
+    grid-area:four;
+}
+.five{
+}
+.six{
+   
+    grid-area: six;
+ 
+}
+.group{
+    background-image: url(Group28.png);
+    width: 40px;
+    height: 40px;
+    background-size:100%;
+    margin:2%;
+    margin-left: 9%;
+    position: absolute;
+    
+}
+.Ab{
+    margin-left: 13%;
+    margin-top:2%;
+    font-size: 240%;
+    font-weight: bold;
+}
+.linia{
+    margin-left: 30%;
+    position: cover;
+    margin-top:-4%;
+    margin-right: 40%;
+}
+.bc{
+    font-weight: 800;
+    margin-left:63%;
+    margin-top: -3%;
+    font-size: 340%;
+    color: rgba(34, 34, 34, 0.1);
+}
+.images{
+ background-image:url(calmarrec.png) ;
+ width: 250px;
+ height: 350px;
+ background-size: 100%;
+ background-repeat: no-repeat;
+ margin-left: 10%;
+ position: cover;
+}
+.image2{
+    background-image: url(kalmar.png);
+    width: 350px;
+    height: 350px;
+    background-size: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    margin-left: 10%;
+}
+.text{
+    position: absolute;
+    margin-left: 50%;
+    font-size: 200%;
+}
+.strong{
+    font-weight: bold;
+}
+.normal{
+    font-weight: normal;
+
+}
+.geo{
+    background-image: url(Group25.png);
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    background-repeat: no-repeat;
+    margin-left: -10%;
+    margin-top: 20%;
+}
+.text2{
+    font-size: 170%;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.spoon{
+    background-image: url(spoon.png);
+    width: 400px;
+    height: 400px;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-top: -20%;
+    margin-left: 70%;
+}
+.linia2{
+    margin-left: 35%;
+    position: cover;
+    margin-top:-4%;
+    margin-right: 40%;
+}
+.himage1{
+    background-image: url(Group45.png);
+    width: 210px;
+    height:200px;
+    background-repeat: no-repeat;
+    margin-left: 10%;
+    position: absolute;
+}
+.himage2{
+    background-image: url(Group46.png);
+    width: 210px;
+    height:200px;
+    background-repeat: no-repeat;
+    margin-left: 25% ;
+    position: absolute ;
+}
+.himage3{
+    background-image: url(Group47.png);
+    width: 210px;
+    height:200px;
+    background-repeat: no-repeat;
+    margin-left: 40% ;
+    position: absolute ;
+}
+.himage4{
+    background-image: url(Group48.png);
+    width: 210px;
+    height:200px;
+    background-repeat: no-repeat;
+    margin-left: 55% ;
+    position: absolute ;
+}
+.himage5{
+    background-image: url(Group45.png);
+    width: 210px;
+    height:200px;
+    background-repeat: no-repeat;
+    margin-left: 70% ;
+    position: absolute ;
+}
+button{
+    margin-top: 17%;
+    margin-left: 45%;
+    background-color: #DAA520;
+    color: white;
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+}
+.cimage1{
+    background-image: url(Group19D.png);
+    width: 300px;
+    height:400px;
+    background-repeat: no-repeat;
+    margin-left: 25%;
+    position: absolute;
+}
+.cimage2{
+    background-image: url(Group18C.png);
+    width: 300px;
+    height:400px;
+    background-repeat: no-repeat;
+    margin-left: 55%;
+    position: absolute;
+}
+.cimage3{
+    background-image: url(Group20.png);
+    width: 300px;
+    height:400px;
+    background-repeat: no-repeat;
+    margin-left:25%;
+    margin-top: 30%;
+    position: absolute;
+}
+.cimage4{
+    background-image: url(Group19.png);
+    width: 300px;
+    height:400px;
+    background-repeat: no-repeat;
+    margin-left: 55%;
+    margin-top: 30%;
+    position: absolute;
+}
+.cimage5{
+    background-image: url(Group18.png);
+    width: 300px;
+    height:400px;
+    background-repeat: no-repeat;
+    margin-left: 25%;
+    margin-top: 30%;
+    position: absolute;
+}
+.timage1{
+    background-image: url(Group64.png);
+    width: 1000px;
+    height:400px;
+    background-repeat: no-repeat;
+    margin-left: 20%;
+}
+#text{
+    margin-left: 13% ;
+    font-size: 140%;
+}
+.input1{
+    margin-left: 70%;
+    margin-top: -10%;
+    position: cover ;
+    border: 2px solid  #DAA520;
+}
+.sub{
+    background-color:  #DAA520;
+    border: 2px solid  #DAA520;
+    color: white;
+    border-radius: 0px 5px 5px 0px;
+}
+.seven{
+    grid-area: seven;
+    background-image: url(pexels-photo-509922\ 1.png);
+    background-size: auto;
+    background-color:#f1f1f1;
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y:100% ;
+}
+.tabel{
+    background-image: url(Frame10.png);
+    width: 800px;
+    height: 200px;
+    background-repeat: no-repeat;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+.align{
+    margin-left: 40%;
+}
+.absolute{
+    position: cover;
+    margin-top: -5%;
+   
+}
